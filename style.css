@@ -140,24 +140,48 @@ ul li span:hover {
     background: #ff5a5a;
 }
 
-/* @media (max-width: 750px) {
+@media (max-width: 700px) {
 
     .todo-app {
-        max-width: 70vw;
+        max-width: 100%;
     }
 
     .row {
-        padding-left: 10px;
-        margin-bottom: 15px;
+        width: 90vw;
+        padding-left: 3vw;
+        margin-bottom: 4vw;
+        width: 60vw;
     }
 
     input {
-        padding: 5px;
-        font-weight: 10px;
+        padding: 2vw;
+        font-size: 2.5vw;
+    }
+
+    button {
+        padding: 2vw 5vw;
+        font-size: 2.5vw;
     }
     
-    button {
-        padding: 10px 40px;
-        font-size: 12px;
+    #list-container {
+        gap: 1.5vw;
     }
-} */
+    
+    ul li {
+        font-size: 2.5vw;
+        padding: 1.5vw 4vw;
+    }
+
+    ul li::before {
+        height: 3.5vw;
+        width: 3.5vw;
+        left: 1px;
+    }
+
+    ul li span {
+        right: 4px;
+        width: 4vw;
+        height: 4vw;
+        font-size: 3.5vw;
+    }
+}
