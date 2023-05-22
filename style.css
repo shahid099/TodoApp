@@ -51,7 +51,7 @@
     border-radius: 30px;
     padding-left: 2vw;
     margin-bottom: 3vw;
-    width: 90vw;
+    width: 60vw;
 }
 
 input {
@@ -148,6 +148,7 @@ ul li span:hover {
     .row {
         padding-left: 3vw;
         margin-bottom: 4vw;
+        width: 90vw;
     }
 
     input {
