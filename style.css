@@ -51,11 +51,10 @@
     border-radius: 30px;
     padding-left: 2vw;
     margin-bottom: 3vw;
-    width: 50vw;
+    width: 60vw;
 }
 
 input {
-    /* flex: 1; */
     border: none;
     outline: none;
     background: transparent;
@@ -149,7 +148,6 @@ ul li span:hover {
     .row {
         padding-left: 3vw;
         margin-bottom: 4vw;
-        width: 60vw;
     }
 
     input {
